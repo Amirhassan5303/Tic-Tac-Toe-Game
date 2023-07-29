@@ -1,6 +1,12 @@
+#empty-player-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 #active-game {
   text-align: center;
   margin: 2rem 0 5rem 0;
+  display: none;
 }
 
 #game-over {
@@ -31,7 +37,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 6rem); /* is the same as 6rem 6rem 6rem*/
-  grid-template-rows: repeat(3, 6rem); /* same as above*/
+  grid-template-rows: repeat(3, 6rem); 
   justify-content: center;
   gap: 0.5rem;
 }
